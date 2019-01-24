@@ -61,8 +61,8 @@ objects:
   kind: BuildConfig
   metadata:
     name: thorntail-rest-http-s2i${SUFFIX_NAME}
-  labels:
-    version: ${RELEASE_VERSION}
+    labels:
+      version: ${RELEASE_VERSION}
   spec:
     output:
       to:
